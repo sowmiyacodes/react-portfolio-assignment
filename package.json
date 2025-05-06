@@ -2,6 +2,7 @@
   "name": "portfolioa",
   "version": "0.1.0",
   "private": true,
+   "homepage": "https://sowmiyacodes.github.io/react-portfolio-assignment",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -49,6 +50,5 @@
   "devDependencies": {
     "ajv": "^8.17.1",
     "gh-pages": "^6.3.0"
-  },
-  "homepage": "https://sowmiyacodes.github.io/react-portfolio-assignment"
+  }, 
 }
