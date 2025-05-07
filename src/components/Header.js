@@ -19,25 +19,14 @@ const Header = () => {
 return ( 
 	<Navbar bg="dark" expand="lg"
 	className="custom-navbar shadow-sm"> 
-	<Navbar.Brand as={Link} to="/"
+	<Navbar.Brand as={Link} to="/react-portfolio-assignment"
 		className="brand-name"> 
 		<span className="display-4 text-white ho"> 
 		SOWMIYA 
 		</span> 
 	</Navbar.Brand> 
-	<button 
-		className="navbar-toggler"
-		type="button"
-		data-toggle="collapse"
-		data-target="#navbarNav"
-		aria-controls="navbarNav"
-		aria-expanded="false"
-		aria-label="Toggle navigation"
-	> 
-		<span className="navbar-toggler-icon"></span> 
-	</button> 
-	<div className="collapse navbar-collapse text-white"
-		id="navbarNav"> 
+	<Navbar.Toggle aria-controls="navbarNav" />
+	<Navbar.Collapse id="navbarNav" className="text-white">	
 		<Nav className="ml-auto "> 
 		<Nav.Link as={Link} to="/react-portfolio-assignment"> 
 			<span>About</span> 
@@ -72,7 +61,7 @@ return (
 			className='text-light ho' /> 
 		</Nav.Link> 
 		</Nav> 
-	</div> 
+	</Navbar.Collapse>
 	</Navbar> 
 ); 
 }; 

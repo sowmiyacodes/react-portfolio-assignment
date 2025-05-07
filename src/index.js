@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';  // Import Bootstrap CSS
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import "../node_modules/bootstrap/js/src/collapse.js";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

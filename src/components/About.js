@@ -2,8 +2,7 @@
 import React from 'react';
 import './style.css';
 
-const About = () => {
-    const avatarPath = process.env.PUBLIC_URL+'/sowmiya.jpg';		
+const About = () => {    
     return (
         <section id="about"
             className="container text-center">
@@ -15,7 +14,7 @@ const About = () => {
                                 <FontAwesomeIcon icon={faUser} 
                                 className="d-block mx-auto mb-2 text-primary" size="3x" />
                             </h2>*/}
-							<img src={avatarPath} className="d-block mx-auto mb-2 text-primary" size="3x" />
+							<img src="react-portfolio-assignment/sowmiya.JPG" className="d-block mx-auto mb-2 text-primary" size="3x" />
                         </h2>
                     </div>
                     <p className="section-description mt-4">

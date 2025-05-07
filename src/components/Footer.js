@@ -12,7 +12,7 @@ return (
 	<div className="container"> 
 		<div className="row"> 
 		<div className="col-md-6"> 
-			<p>© 2025. All rights reserved.</p> 
+			<p>ï¿½ 2025. All rights reserved.</p> 
 		</div> 
 		<div className="col-md-6 text-md-right"> 
 			<ul className="social-icons list-unstyled"> 
@@ -24,13 +24,13 @@ href="https://linkedin.com/in/sowmiya" target="_blank" rel="noopener noreferrer"
 			</li> 
 			<li> 
 				<a href= 
-"https://github.com/yourusername" target="_blank" rel="noopener noreferrer"> 
+"https://github.com/sowmiya" target="_blank" rel="noopener noreferrer"> 
 				<FontAwesomeIcon icon={faGithub} /> 
 				</a> 
 			</li> 
 			<li> 
 				<a href= 
-"https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer"> 
+"https://twitter.com/sowmiya" target="_blank" rel="noopener noreferrer"> 
 				<FontAwesomeIcon icon={faTwitter} /> 
 				</a> 
 			</li> 
