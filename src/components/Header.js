@@ -7,7 +7,7 @@ import { faGithub, faLinkedin }
 from '@fortawesome/free-brands-svg-icons'; 
 import { 
 faInfoCircle, faCode, 
-faFileAlt, faEnvelope 
+faCogs, faEnvelope 
 } 
 from '@fortawesome/free-solid-svg-icons'; 
 import { Link } from 'react-router-dom'; 
@@ -49,9 +49,9 @@ return (
 			<FontAwesomeIcon icon={faCode} 
 			className="ml-2 text-light ho" /> 
 		</Nav.Link> 
-		<Nav.Link as={Link} to="/react-portfolio-assignment/resume"> 
-			<span>Resume</span> 
-			<FontAwesomeIcon icon={faFileAlt} 
+		<Nav.Link as={Link} to="/react-portfolio-assignment/skills"> 
+			<span>Skills</span> 
+			<FontAwesomeIcon icon={faCogs} 
 			className="ml-2 text-light ho" /> 
 		</Nav.Link> 
 		<Nav.Link as={Link} to="/react-portfolio-assignment/contact"> 

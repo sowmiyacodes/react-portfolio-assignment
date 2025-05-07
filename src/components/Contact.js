@@ -2,7 +2,7 @@
 import React from 'react'; 
 import { FontAwesomeIcon } 
 	from '@fortawesome/react-fontawesome'; 
-import { faEnvelope, faPhone } 
+import { faEnvelope, faPhone, faMapMarkerAlt  } 
 	from '@fortawesome/free-solid-svg-icons'; 
 import { faLinkedin, faGithub } 
 	from '@fortawesome/free-brands-svg-icons'; 
@@ -19,25 +19,21 @@ const Contact = () => {
 			</p> 
 			<ul className="contact-list list-unstyled"> 
 				<li> 
-					<FontAwesomeIcon icon={faEnvelope} 
-						className="contact-icon" /> 
-					sahilalixxxxxx@gmail.com 
-				</li> 
-				<li> 
-					<FontAwesomeIcon icon={faLinkedin} 
-						className="contact-icon" /> 
-					LinkedIn 
-				</li> 
-				<li> 
-					<FontAwesomeIcon icon={faGithub} 
-						className="contact-icon" /> 
-					GitHub 
-				</li> 
-				<li> 
 					<FontAwesomeIcon icon={faPhone} 
 						className="contact-icon" /> 
-					6393xxxxx4 
+					760496666
 				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faEnvelope} 
+						className="contact-icon" /> 
+					sowmiya9b@gmail.com
+				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faMapMarkerAlt} 
+						className="contact-icon" /> 
+					Yeswanth Nagar, Chennai
+				</li> 				
+				
 			</ul> 
 		</section> 
 	); 
