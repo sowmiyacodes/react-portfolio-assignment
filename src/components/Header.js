@@ -39,22 +39,22 @@ return (
 	<div className="collapse navbar-collapse text-white"
 		id="navbarNav"> 
 		<Nav className="ml-auto "> 
-		<Nav.Link as={Link} to="/"> 
+		<Nav.Link as={Link} to="/react-portfolio-assignment"> 
 			<span>About</span> 
 			<FontAwesomeIcon icon={faInfoCircle} 
 			className="ml-2 text-light ho ho" /> 
 		</Nav.Link> 
-		<Nav.Link as={Link} to="/projects"> 
+		<Nav.Link as={Link} to="/react-portfolio-assignment/projects"> 
 			<span>Projects</span> 
 			<FontAwesomeIcon icon={faCode} 
 			className="ml-2 text-light ho" /> 
 		</Nav.Link> 
-		<Nav.Link as={Link} to="/resume"> 
+		<Nav.Link as={Link} to="/react-portfolio-assignment/resume"> 
 			<span>Resume</span> 
 			<FontAwesomeIcon icon={faFileAlt} 
 			className="ml-2 text-light ho" /> 
 		</Nav.Link> 
-		<Nav.Link as={Link} to="/contact"> 
+		<Nav.Link as={Link} to="/react-portfolio-assignment/contact"> 
 			<span>Contact</span> 
 			<FontAwesomeIcon icon={faEnvelope} 
 			className="ml-2 text-light ho" /> 

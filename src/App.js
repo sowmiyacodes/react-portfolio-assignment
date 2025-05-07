@@ -15,11 +15,11 @@ return (
 	<div> 
 		<Header /> 
 		<Routes> 
-		<Route path="/" element={<About />} /> 
-		<Route path="/projects" element={<Projects />} /> 
-		<Route path="/skills" element={<Skills />} /> 
-		<Route path="/resume" element={<Resume />} /> 
-		<Route path="/contact" element={<Contact />} /> 
+		<Route path="/react-portfolio-assignment" element={<About />} /> 
+		<Route path="/react-portfolio-assignment/projects" element={<Projects />} /> 
+		<Route path="/react-portfolio-assignment/skills" element={<Skills />} /> 
+		<Route path="/react-portfolio-assignment/resume" element={<Resume />} /> 
+		<Route path="/react-portfolio-assignment/contact" element={<Contact />} /> 
 		</Routes> 
 		<Footer /> 
 	</div> 

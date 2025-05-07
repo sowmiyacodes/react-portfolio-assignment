@@ -23,71 +23,53 @@ const Projects = () => {
 				Projects 
 			</h2> 
 			<div className="row"> 
-				{/* Project 1 */} 
-				<div className="col-md-6"> 
-					<div className="card mb-4"> 
-						<div className="card-body"> 
-							<h5 className="card-title"> 
-								Read For Speed - 
-								Smart India Hackathon 2022 
-							</h5> 
-							<p className="card-text"> 
-								Designed the UI and implemented 
-								CSS styling for the website, 
-								optimizing performance and design across 
-								all pages. 
-							</p> 
-						</div> 
-					</div> 
-				</div> 
-				{/* Project 2 */} 
-				<div className="col-md-6"> 
-					<div className="card mb-4"> 
-						<div className="card-body"> 
-							<h5 className="card-title"> 
-								Training and Placement 
-								Cell Website Official 
-							</h5> 
-							<p className="card-text"> 
-								Designed and developed the official 
-								Placement Website for the university using 
-								HTML, CSS, JavaScript, jQuery, and Bootstrap. 
-							</p> 
-						</div> 
-					</div> 
-				</div> 
-				{/* Project 3 */} 
-				<div className="col-md-6"> 
-					<div className="card mb-4"> 
-						<div className="card-body"> 
-							<h5 className="card-title"> 
-								E-commerce Platform 
-							</h5> 
-							<p className="card-text"> 
-								Built a fully functional e-commerce 
-								platform with features like product listing, 
-								cart management, and user authentication using 
-								React, Node.js, and MongoDB. 
-							</p> 
-						</div> 
-					</div> 
-				</div> 
-				{/* Project 4 */} 
-				<div className="col-md-6"> 
-					<div className="card mb-4"> 
-						<div className="card-body"> 
-							<h5 className="card-title"> 
-								Social Media Dashboard 
-							</h5> 
-							<p className="card-text"> 
-								Developed a social media dashboard 
-								that allows users to view and manage 
-								their social media accounts in one place, 
-								integrating with APIs from major platforms. 
-							</p> 
-						</div> 
-					</div> 
-				</div> 
+			<div className="col-md-6"> 
+				{/* Personal Portfolio Website */}
+				<div className="card mb-3">
+					<div className="card-body">
+					<h5 className="card-title">Personal Portfolio Website (HTML, CSS, JavaScript)</h5>
+					<h6 className="card-subtitle mb-2 text-muted">2024 - Present</h6>
+					</div>
+					<ul className="list-group list-group-flush">
+					<li className="list-group-item">Created a personal website to showcase school and college experiences.</li>
+					<li className="list-group-item">Built static pages with a top navigation menu for structured access.</li>
+					<li className="list-group-item">Designed and embedded an alumni registration form.</li>
+					<li className="list-group-item">Currently integrating JavaScript for form validation and interactivity.</li>
+					</ul>
+				</div>
+			</div>	
+
+			{/* School Management System */}
+			<div className="col-md-6"> 
+			<div className="card mb-3">
+				<div className="card-body">
+				<h5 className="card-title">School Management System (Python + Tkinter Treeview)</h5>
+				<h6 className="card-subtitle mb-2 text-muted">2023 - 2024</h6>
+				</div>
+				<ul className="list-group list-group-flush">
+				<li className="list-group-item">Developed a basic school management system as part of Class 12 coursework.</li>
+				<li className="list-group-item">Implemented dynamic date input and output functionalities.</li>
+				<li className="list-group-item">Designed a user-friendly menu-driven interface.</li>
+				<li className="list-group-item">Used Treeview to manage and display student records in a tabular format.</li>
+				</ul>
+			</div>
+			</div>
+			{/* Admin Dashboard */}
+			<div className="col-md-6"> 
+			<div className="card mb-3">
+				<div className="card-body">
+				<h5 className="card-title">Admin Dashboard with Database Integration (PHP + MySQL)</h5>
+				<h6 className="card-subtitle mb-2 text-muted">2023 - 2024</h6>
+				</div>
+				<ul className="list-group list-group-flush">
+				<li className="list-group-item">Created a user-interactive admin system for CRUD operations.</li>
+				<li className="list-group-item">Enabled real-time Create, Read, Update, Delete operations using PHP.</li>
+				<li className="list-group-item">Connected forms and buttons to a localhost MySQL database.</li>
+				<li className="list-group-item">Built dynamic update and delete features with immediate reflection in the menu table.</li>
+				<li className="list-group-item">Improved backend logic and database management skills.</li>
+				</ul>
+			</div>
+			</div>
 			</div> 
 		</section> 
 	); 
